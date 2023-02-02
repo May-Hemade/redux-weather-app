@@ -5,7 +5,7 @@ import { compareAsc, format } from "date-fns"
 
 function OneItem({ item }) {
   const formatDate = (weatherDate) => {
-    const d = Date.parse(weatherDate)
+    const d = Date.parse("YYYY-MM-DD HH:MM:SS")
 
     format(new Date(weatherDate), "YYYY-MM-DD HH:MM:SS")
   }
